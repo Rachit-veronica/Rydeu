@@ -23,7 +23,7 @@
     width: 32.5%;
     height: 15%;
     left: 15%;
-    top: 37%;
+    top: 45%;
     border: 1px solid black;
     background-color: white;
     border-radius: 20px;    
@@ -50,7 +50,7 @@
     width: 32.5%;
     height: 15%;
     right: 15%;
-    top: 37%;
+    top: 45%;
     border: 1px solid black;
     background-color: white;    
     border-radius: 20px;    
@@ -82,14 +82,238 @@
     margin-top: 5.2%;
     margin-left: 16.5%;
 }
-/* .toggle-btn{
+.travel img{
+    position: relative;
+    height: 40px;
+}
+
+#tele{
+    position: absolute;
+    top: 50%;
+    margin-left: 30%;
+    text-align: center;
+}
+#whatsapp{
+    position: absolute;
+    top: 50%;
+    margin-left: 48%;
+    text-align: center;
+}
+#live{
+    position: absolute;
+    top: 50%;
+    margin-left: 68%;
+    text-align: center;
+}
+
+#question1{
     position: absolute;
     font-size: 60px;
-    margin-top: 1%;
-    right: 5.5%;
-} */
-
-.travel img{
+    margin-top: 2.2%;
+    margin-left: 5.5%;
+}
+.card3 h1{
     position: absolute;
-    height: 60%;
+    margin-top: 1%;
+    margin-left: 16.5%;
+}
+.card3 h4{
+    position: absolute;
+    margin-top: 5.2%;
+    margin-left: 16.5%;
+}
+
+.free h1{
+    color: white;
+}
+
+#facebook{
+    position: absolute;
+    top: 50%;
+    margin-left: 20%;
+    text-align: center;
+}
+#instagram{
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    text-align: center;
+}
+#twitter{
+    position: absolute;
+    top: 50%;
+    margin-left: 60%;
+    text-align: center;
+}
+#linkedin{
+    position: absolute;
+    top: 50%;
+    margin-left: 80%;
+    text-align: center;
+}
+#fname{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#fname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+}
+#lname{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 53.5%;
+}
+#lname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 53.5%;
+}
+
+#sname{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 20%;
+}
+#sname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+}
+#oname{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 53.5%;
+    width: max-content;
+}
+#oname label{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 53.5%;
+}
+#pname{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 20%;
+}
+#pname label{
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 0%;
+}
+#submit{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 37%;
+    height: 10%;
+    width: 22%;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+}
+@media(max-width: 700px){
+
+    .main_page_bg    img{
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        border-radius: 0% 0% 20% 20%;
+    }
+    .main_page h1{
+        position: relative;
+        text-align: center;
+        top: 100px;
+            font-size: 25px;
+    }
+    .main_page h3{
+        position: relative;
+        text-align: center;
+        top: 120px;
+        font-size: 20px;
+    }
+    .card{
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 38%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;    
+    }
+    #question{
+        position: absolute;
+        font-size: 50px;
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+    .card h1{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 28%;
+        font-size: 22px;
+
+    }
+    .card h4{
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 28%;
+        font-size: 13px;
+    }
+    .card1{
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 60%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;     
+    }
+    .card1 h1{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 28%;
+        font-size: 22px;
+    }
+    .card1 h4{
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 28%;
+        font-size: 13px;
+    }
+    
+    #question1{
+        position: absolute;
+        font-size: 50px;
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+    .card2{
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 60%;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;        
+    }
+    .card2 h1{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 28%;
+        font-size: 22px;
+    }
+    .card2 h4{
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 28%;
+        font-size: 13px;
+    }
+    #pname{
+        display: none;
+    }
 }

@@ -9,9 +9,7 @@ export default function navbar() {
                 <div className="navbar">
                 <div className="brand-title">brand name</div>
                 <a href='#' className='toggle-button'onClick={call}>
-                <span className='bar'></span>
-                <span className='bar'></span>
-                <span className='bar'></span>
+                <FontAwesomeIcon id='bars' icon={faBars}></FontAwesomeIcon>
                 </a>
             <div className="navbar-link">
                 <ul>

@@ -11,7 +11,7 @@
         color: aliceblue;
     }
     .brand-title{
-
+            font-size: x-large;
     }
     .navbar-link ul{
         display: flex;
@@ -62,13 +62,12 @@
         .navbar-link.active{
             display: flex;
         }
+        #bars{
+            font-size: x-large;
+        }
+        .brand-title{
+            margin-top: 2px;
+            margin-left: 10px;
+            margin-bottom: 10px;
     }
-    /* .nav{
-        rgba(225,247,247,255)
-        color: aqua;
-        position:absolute;
-        display: inline;
     }
-    .icon{
-
-    } */
