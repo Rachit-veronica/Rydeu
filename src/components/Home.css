@@ -33,6 +33,7 @@
     font-size: 60px;
     margin-top: 4.5%;
     margin-left: 12%;
+    color: red;
 }
 .card h1{
     position: absolute;
@@ -71,6 +72,7 @@
     font-size: 60px;
     margin-top: 2.2%;
     margin-left: 5.5%;
+    color: red;
 }
 .card2 h1{
     position: absolute;
@@ -112,12 +114,33 @@
     margin-top: 2.2%;
     margin-left: 5.5%;
 }
+.card3{
+    position: absolute;
+    width: 32.5%;
+    height: 15%;
+    right: 15%;
+    top: 45%;
+    border: 1px solid black;
+    background-color: white;    
+    border-radius: 20px;    
+}
 .card3 h1{
     position: absolute;
     margin-top: 1%;
     margin-left: 16.5%;
 }
 .card3 h4{
+    position: absolute;
+    margin-top: 5.2%;
+    margin-left: 16.5%;
+}
+
+.card4 h1{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 16.5%;
+}
+.card4 h4{
     position: absolute;
     margin-top: 5.2%;
     margin-left: 16.5%;
@@ -151,6 +174,7 @@
     margin-left: 80%;
     text-align: center;
 }
+
 #fname{
     position: absolute;
     margin-top: 10%;
@@ -288,7 +312,7 @@
     #question1{
         position: absolute;
         font-size: 50px;
-        margin-top: 12%;
+        margin-top: 10%;
         margin-left: 5%;
     }
     .card2{
@@ -309,11 +333,141 @@
     }
     .card2 h4{
         position: absolute;
-        margin-top: 22%;
+        margin-top: 20%;
         margin-left: 28%;
         font-size: 13px;
     }
-    #pname{
-        display: none;
+    .card3 h1{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 28%;
+        font-size: 22px;
     }
+    .card3 h4{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 28%;
+        font-size: 13px;
+    }
+    .card4 h1{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 28%;
+        font-size: 22px;
+    }
+    .card4 h4{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 28%;
+        font-size: 13px;
+    }
+    #tele{
+        position: absolute;
+        top: 50%;
+        margin-left: 15%;
+        text-align: center;
+    }
+    #whatsapp{
+        position: absolute;
+        top: 50%;
+        margin-left: 40%;
+        text-align: center;
+    }
+    #live{
+        position: absolute;
+        top: 50%;
+        margin-left: 67%;
+        text-align: center;
+    }
+    #facebook{
+        position: absolute;
+        top: 50%;
+        margin-left: 5%;
+        text-align: center;
+        font-size: small;
+    }
+    #instagram{
+        position: absolute;
+        top: 50%;
+        margin-left: 30%;
+        text-align: center;
+        font-size: small;
+    }
+    #twitter{
+        position: absolute;
+        top: 50%;
+        margin-left: 58%;
+        text-align: center;
+        font-size: small;
+
+    }
+    #linkedin{
+        position: absolute;
+        top: 50%;
+        margin-left: 78%;
+        text-align: center;
+        font-size: small;
+    }
+#fname{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 5%;
+}
+#fname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+}
+#lname{
+    position: absolute;
+    margin-top: 30%;
+    margin-right: 5%;
+}
+#lname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 53.5%;
+}
+
+#sname{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 5%;
+}
+#sname label{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 50%;
+}
+#oname{
+    position: absolute;
+    margin-top: 45%;
+    margin-right: 5%;
+    width: max-content;
+}
+#oname label{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 53.5%;
+}
+#pname{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 3%;
+}
+#pname label{
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 0%;
+}
+#submit{
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 35%;
+    height: 10%;
+    width: 22%;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+}
 }

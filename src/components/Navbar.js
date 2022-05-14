@@ -7,16 +7,17 @@ export default function navbar() {
   return (
     <div> 
                 <div className="navbar">
-                <div className="brand-title">brand name</div>
+                <div className="brand-title">LOGO</div>
                 <a href='#' className='toggle-button'onClick={call}>
                 <FontAwesomeIcon id='bars' icon={faBars}></FontAwesomeIcon>
                 </a>
             <div className="navbar-link">
                 <ul>
-                    <li><a><FontAwesomeIcon icon={faCircleDot}></FontAwesomeIcon> Help</a></li>
-                    <li><a><img src='image/us.jpg' width={23}></img> Deutsch</a></li>
-                    <li><a className='line'>EUR</a></li>
-                    <li><a><FontAwesomeIcon icon={faUser}></FontAwesomeIcon></a></li>
+                    <li><a id='black'><FontAwesomeIcon icon={faCircleDot}></FontAwesomeIcon> Help</a></li>
+                    <li><a id='black'><img src='image/us.jpg' width={23} ></img> Deutsch</a></li>
+                    <div className='vl'></div>
+                    <li id='black'><a className='line'>EUR</a></li>
+                    <li><a id='button'>&nbsp;&nbsp;<FontAwesomeIcon icon={faUser}></FontAwesomeIcon>&nbsp;<FontAwesomeIcon icon={faBars}></FontAwesomeIcon>&nbsp;&nbsp;</a></li>
                 </ul>
             </div>
             </div>

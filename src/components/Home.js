@@ -26,7 +26,7 @@ export default function Home() {
       const [sideBarStyle, setsideBarStyleSize] = useState({
         position: 'absolute',
         width: '70%',
-        height: '30%',
+        height: '15%',
         right: '15%',
         top: '70%',
         border: '1px solid black',
@@ -38,11 +38,11 @@ export default function Home() {
       const [sideBarStyleResponsive, setsideBarStyleSizeResponsive] = useState( {
         position: 'absolute',
         width: '80%',
-        height: '15%',
+        height: '30%',
         right: '15%',
         top: '82%',
         border: '1px solid black',
-        backgroundColor: 'red',    
+        backgroundColor: 'white',    
         borderRadius: '20px'
         });
 
@@ -50,22 +50,22 @@ export default function Home() {
       const [sideBarStyleResponsive2, setsideBarStyleSizeResponsive2] = useState( {
         position: 'absolute',
         width: '80%',
-        height: '15%',
+        height: '60%',
         right: '10%',
         top: '160%',
         border: '1px solid black',
-        backgroundColor: 'red',    
+        backgroundColor: 'white',    
         borderRadius: '20px'
-        });
+              });
 
         const [sideBarStyleResponsive4, setsideBarStyleSizeResponsive4] = useState( {
           position: 'absolute',
           width: '80%',
-          height: '15%',
+          height: '30%',
           right: '10%',
           top: '120%',
           border: '1px solid black',
-          backgroundColor: 'red',    
+          backgroundColor: 'white',    
           borderRadius: '20px'
           });
 
@@ -258,7 +258,7 @@ function FormBar(props){
                   </div>
                   <div id='pname'>
                   <label for="pname">Your&nbsp;Query</label><br/>
-                  <textarea id="w3review" name="w3review" rows="5" cols="70"></textarea>
+                  <textarea id="w3review" name="w3review" rows="5" cols="60"></textarea>
                   </div>
                   <input  id='submit' type="submit" value="Submit"/>
                 </form>

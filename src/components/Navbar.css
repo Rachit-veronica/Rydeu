@@ -4,11 +4,12 @@
         box-sizing: border-box;
     }
     .navbar{
+        margin-left: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: black;
-        color: aliceblue;
+        background-color: white;
+        color: red;
     }
     .brand-title{
             font-size: x-large;
@@ -37,7 +38,21 @@
         background-color: aliceblue;
         border-radius: 10px;
     }
-    @media(max-width: 400px){
+    #black{
+        color: black;
+    }
+    .vl {
+        border-left: 6px solid black;
+        height: 30px;
+        margin-top: 10px;
+      }
+      #button{
+        color: black;   
+          background-color: gray;
+          border-radius: 12px;
+          width: fit-content;
+        }
+    @media(max-width: 700px){
         .toggle-button{
             display: flex;
         }
@@ -69,5 +84,11 @@
             margin-top: 2px;
             margin-left: 10px;
             margin-bottom: 10px;
+    }
+    .vl{
+        display: none;
+    }
+    #button{
+        display: none;
     }
     }
