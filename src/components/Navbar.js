@@ -21,11 +21,9 @@ export default function navbar() {
                 </ul>
             </div>
             </div>
-            {/* <i class="fa-thin fa-circle-dashed"></i> */}
     </div>
   )
 function call() { 
-  // console.log("hello world");
   const toggleButton = document.getElementsByClassName('toggle-button')[0]
   const navbarLinks = document.getElementsByClassName('navbar-link')[0]
   toggleButton.addEventListener('click', ()=> {
